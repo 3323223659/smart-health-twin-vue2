@@ -9,7 +9,7 @@
 后端: https://github.com/3323223659/smart-health-twin-backEnd
 
 #### 软件架构
-Vue2、Vuex、Router、Axios、ElementUI
+Vue3+Vuex+Router+Axios+ElementUI
 
 #### 安装教程
 pull该项目
