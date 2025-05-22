@@ -12,6 +12,8 @@
 Vue3+Vuex+Router+Axios+ElementUI
 
 #### 安装教程
-pull该项目
-npm install 命令下载依赖包
-执行 npm run serve
+pull该项目。
+
+npm install 命令下载依赖包。
+
+执行 npm run serve。
