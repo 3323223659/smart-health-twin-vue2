@@ -1,29 +1,16 @@
-# smh_admin
+# smart-health-twin-vue2（管理端）
 
-This template should help get you started developing with Vue 3 in Vite.
+#### 介绍（此为项目详细介绍）
+该项目是融合物联网、人工智能与数字孪生技术的智能健康管理系统，通过自主研发的ESP32-S3智能手表实时采集用户心率、血压、血氧、体温等12项生理指标（采样频率1Hz），解析体检报告PDF或者图片进行健康分析与建议告警，构建个人健康数字孪生模型。调用千问大模型进行慢性病风险预测（准确率85%）与健康AI助手问答功能，并基于构建3D虚拟数字人动态展示健康状态。平台包含微信小程序端与PC管理后台，微信小程序供用户使用绑定设备编号即可实现手表与页面数据互通，管理端供以查看数据与手表设备管理等功能，形成"硬件采集-云端分析-多端可视化"的完整闭环。
 
-## Recommended IDE Setup
+#### 关联项目：
+微信小程序端：https://github.com/3323223659/smart-health-twin-uniapp
+后端: https://github.com/3323223659/smart-health-twin-backEnd
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+#### 软件架构
+Vue2、Vuex、Router、Axios、ElementUI
 
-## Customize configuration
-
-See [Vite Configuration Reference](https://vite.dev/config/).
-
-## Project Setup
-
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
+#### 安装教程
+pull该项目
+npm install 命令下载依赖包
+执行 npm run serve
